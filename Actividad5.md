@@ -8,7 +8,7 @@ Ubica los siguientes números complejos en el plano, identificando su parte real
 
 ### 19. $-2 + 3i$
 
-![Ejercicio 19](ruta/a/tu/imagen19.png)
+![Ejercicio 19](19)
 
 ---
 
