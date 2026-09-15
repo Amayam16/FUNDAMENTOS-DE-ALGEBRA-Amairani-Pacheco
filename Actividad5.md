@@ -14,31 +14,31 @@ Ubica los siguientes números complejos en el plano, identificando su parte real
 
 ### 20. $1 - 2i$
 
-![Ejercicio 20](ruta/a/tu/imagen20.png)
+![Ejercicio 20](20.jpeg)
 
 ---
 
 ### 21. $-4 + 3i$
 
-![Ejercicio 21](ruta/a/tu/imagen21.png)
+![Ejercicio 21](21.jpeg)
 
 ---
 
 ### 22. $3 + i$
 
-![Ejercicio 22](ruta/a/tu/imagen22.png)
+![Ejercicio 22](22.jpeg)
 
 ---
 
 ### 23. $-4 - 4i$
 
-![Ejercicio 23](ruta/a/tu/imagen23.png)
+![Ejercicio 23](23.jpeg)
 
 ---
 
 ### 24. $-2 - i$
 
-![Ejercicio 24](ruta/a/tu/imagen24.png)
+![Ejercicio 24](24.jpeg)
 
 ---
 ## Operaciones con Números Complejos
