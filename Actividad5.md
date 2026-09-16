@@ -171,7 +171,7 @@ Calcula el valor absoluto de los siguientes números complejos.
 
 ### 43. $\vert{-9-9i}\vert$
 
-$$\sqrt{9^2+9^2} = \sqrt{81+81} = \sqrt{162} \approx 12.72$$
+$$\sqrt{9^2+9^2} = \sqrt{81+81} = \sqrt{162} \approx 12.728$$
 
 ---
 
@@ -183,7 +183,7 @@ $$\sqrt{8^2+(-6)^2} = \sqrt{64+36} = \sqrt{100} = 10$$
 
 ### 45. $\vert{6-3i}\vert$
 
-$$\sqrt{6^2+(-3)^2} = \sqrt{36+9} = \sqrt{45} \approx 6.557$$
+$$\sqrt{6^2+(-3)^2} = \sqrt{36+9} = \sqrt{45} \approx 6.708$$
 
 ---
 
