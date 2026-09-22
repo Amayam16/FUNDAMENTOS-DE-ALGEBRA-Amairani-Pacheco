@@ -490,3 +490,13 @@ $$k=4: \quad 3(\cos 240^\circ+i \sin 240^\circ) = -1.5-2.598i$$
 $$k=5: \quad 3(\cos 300^\circ+i \sin 300^\circ) = 1.5-2.598i$$
 
 ---
+
+### Binario a decimal
+
+Realiza las conversiones de binario a decimal
+
+---
+
+### 73. $$00001111$$
+
+$$1\cdot2^3+1\cdot2^2+1\cdot2^1+1\cdot2^0$$
