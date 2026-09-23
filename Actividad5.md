@@ -617,20 +617,15 @@ $$\mathbf{\text{B}5_{16}}$$
 
 ---
 
-### 88. $11110000\ 10100101 \rightarrow (1111)(0000)(1010)(0101)$ 
-$1111_2 = 15 \rightarrow \text{F}$
-$0000_2 = 0$$1010_2 = 10 \rightarrow \text{A}$
-$0101_2 = 5$
-$$\mathbf{\text{F0A5}_{16}}$$
+### 88. 11110000 10100101 $\rightarrow$ (1111)(0000)(1010)(0101)
+
+$1111_2 = 15 \rightarrow \text{F} \quad 0000_2 = 0 \quad 1010_2 = 10 \rightarrow \text{A} \quad 0101_2 = 5 \quad \mathbf{\text{F0A5}_{16}}$
 
 ---
 
-### 89. $00001111\ 00001111 \rightarrow (0000)(1111)(0000)(1111)$
-$0000_2 = 0$
-$1111_2 = \text{F}$
-$0000_2 = 0$
-$1111_2 = \text{F}$
-$$\mathbf{0\text{F0F}_{16}} \text{ o } \mathbf{\text{F0F}_{16}}$$
+### 89. 00001111 00001111 $\rightarrow$ (0000)(1111)(0000)(1111)
+
+$0000_2 = 0 \quad 1111_2 = 15 \rightarrow \text{F} \quad 0000_2 = 0 \quad 1111_2 = 15 \rightarrow \text{F} \quad \mathbf{0\text{F0F}_{16}}$
 
 ---
 
@@ -744,3 +739,111 @@ $0 \rightarrow 0000$
 $0 \rightarrow 0000$
 $1 \rightarrow 0001$
 $$\mathbf{1000000000000001_2}$$
+
+---
+
+### Clasificación de polinomios 
+
+### 103. $5n+5$   
+Exponente más alto: $1$   
+Número de términos: $2$   
+Nombre: Binomio
+
+---
+
+### 104. $-10p^3-6+9p^2-4p^5-2p^8$  
+Exponente más alto: $8$ 
+Número de términos: $5$ 
+Nombre: Polinomio
+
+---
+
+### 105. $7x^8$  
+Exponente más alto: $8$  
+Número de términos: $1$ 
+Nombre: Monomio
+
+---
+
+### 106. $-2n+n^4+10n^6$ 
+Exponente más alto: $6$
+Número de términos: $3$  
+Nombre: Trinomio
+
+---
+
+### 107. $5$  
+Exponente más alto: $0$   
+Número de términos: $1$
+Nombre: Monomio  
+
+---
+
+### 108. $5v^7$
+Exponente más alto: $7$ 
+Número de términos: $1$  
+Nombre: Monomio
+
+---
+
+### Problemas de Aplicación
+### 109. Amy puede verter una gran entrada de concreto en 8 horas. Un día su amiga Jill la ayudó y solo tomó 3.08 horas. Encuentra cuánto le tomaría a Jill hacerlo sola.
+Planteamiento: Sea $t$ el tiempo que le toma a Jill sola.
+$$\frac{1}{8} + \frac{1}{t} = \frac{1}{3.08}$$
+Resolución:
+$$\frac{1}{t} = \frac{1}{3.08} - \frac{1}{8}$$
+$$\frac{1}{t} = \frac{100}{308} - \frac{1}{8} = \frac{25}{77} - \frac{1}{8}$$
+$$\frac{1}{t} = \frac{200 - 77}{616} = \frac{123}{616}$$
+$$t = \frac{616}{123} \approx 5.008 \text{ horas}$$
+Respuesta: A Jill le tomaría aproximadamente 5 horas (o $5.01$ horas) hacerlo sola.
+
+---
+
+### 110. Jaidee puede cavar un hoyo en 5 horas. Ted puede cavar el mismo hoyo en 7 horas. Si trabajaran juntos, ¿cuánto tiempo les tomaría?
+Planteamiento: Sea $t$ el tiempo total juntos.$
+$\frac{1}{5} + \frac{1}{7} = \frac{1}{t}$$
+Resolución:
+$$\frac{7 + 5}{35} = \frac{1}{t}$$
+$$\frac{12}{35} = \frac{1}{t}$$
+$$t = \frac{35}{12} \approx 2.92 \text{ horas}$$
+Respuesta: Les tomaría $\frac{35}{12}$ horas (aproximadamente 2.92 horas o 2 horas con 55 minutos).
+
+---
+
+### 111. Un avión de carga salió de Los Ángeles y voló hacia Moscú. Un avión de la Fuerza Aérea salió 4 horas después volando a $310\text{ km/h}$ en un esfuerzo por alcanzar al avión de carga. Después de volar durante 6 horas, el avión de la Fuerza Aérea finalmente lo alcanzó. ¿Cuál era la velocidad promedio del avión de carga?
+Planteamiento:
+Distancia recorrida por la Fuerza Aérea: $d = v \cdot t = 310\text{ km/h} \times 6\text{ h} = 1860\text{ km}$. 
+Tiempo total del avión de carga: $6\text{ h} + 4\text{ h} = 10\text{ h}$.
+Como ambos recorrieron la misma distancia ($1860\text{ km}$):
+$$v_{\text{carga}} = \frac{\text{Distancia}}{\text{Tiempo}} = \frac{1860\text{ km}}{10\text{ h}}$$
+Respuesta: La velocidad promedio del avión de carga era de $186\text{ km/h}$.
+
+---
+
+### 112. Un tren de carga viajó a Nueva York y de regreso. En el viaje de ida viajó a $35\text{ km/h}$ y en el viaje de regreso fue a $49\text{ km/h}$. ¿Cuánto tiempo tomó el viaje de ida si el viaje de regreso tomó 10 horas?
+Planteamiento:
+Distancia total de regreso: $d = 49\text{ km/h} \times 10\text{ h} = 490\text{ km}$.   
+La distancia de ida es exactamente la misma ($490\text{ km}$).
+$$t_{\text{ida}} = \frac{\text{Distancia}}{v_{\text{ida}}} = \frac{490\text{ km}}{35\text{ km/h}}$$
+Respuesta: El viaje de ida tomó 14 horas.
+
+---
+### 113. $1\text{ yd}^3$ de tierra que contenía 30% de arena se mezcló con $4\text{ yd}^3$ de tierra que contenía 20% de arena. ¿Cuál es el contenido de arena de la mezcla?
+Planteamiento:
+Cantidad de arena en la primera tierra: $1 \times 0.30 = 0.30\text{ yd}^3$.  
+Cantidad de arena en la segunda tierra: $4 \times 0.20 = 0.80\text{ yd}^3$.   
+Arena total: $0.30 + 0.80 = 1.10\text{ yd}^3$.
+Volumen total de la mezcla: $1 + 4 = 5\text{ yd}^3$.   
+Porcentaje total:$$\% \text{ arena} = \frac{1.10}{5} = 0.22$$
+Respuesta: El contenido de arena de la mezcla es del 22%.
+
+---
+
+### 114. Para su fiesta de cumpleaños, James mezcló $7\text{ L}$ de ponche de frutas de la Marca A y $6\text{ L}$ de la Marca B. La Marca A contiene 11% de jugo de fruta y la Marca B contiene 24% de jugo de fruta. ¿Qué porcentaje de la mezcla es jugo de fruta?   
+Planteamiento:
+Jugo en la Marca A: $7 \times 0.11 = 0.77\text{ L}$.   
+Jugo en la Marca B: $6 \times 0.24 = 1.44\text{ L}$.   
+Jugo total: $0.77 + 1.44 = 2.21\text{ L}$.
+Volumen total de mezcla: $7 + 6 = 13\text{ L}$.
+Porcentaje total:$$\% \text{ jugo} = \frac{2.21}{13} = 0.17$$
+Respuesta: El porcentaje de jugo de fruta en la mezcla es del 17%.
