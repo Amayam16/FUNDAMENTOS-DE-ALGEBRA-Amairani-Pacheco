@@ -750,3 +750,531 @@ $$\boxed{x(2x^2 - 7)(x - 3)(x + 3)}$$
 $$= x^2(5x^4 - 2x^2 + 10)$$
 
 $$\boxed{x^2(5x^4 - 2x^2 + 10)}$$
+
+---
+
+## Grafica las siguientes ecuaciones (Líneas rectas)
+
+81. $x - y = 0$
+
+82. $x + 4y = -8$
+
+83. $7x + y = 2$
+
+84. $2x - y = -1$
+
+85. $x - y = -1$
+
+86. $x + 5y = 0$
+
+87. $6x - 5y = 25$
+
+88. $7x + y = -3$
+
+---
+
+## Resuelve las siguientes ecuaciones
+
+89. $-30+6x=-8(-6-4x)$
+
+$$-30 + 6x = 48 + 32x$$
+
+$$6x - 32x = 48 + 30$$
+
+$$-26x = 78$$
+
+$$x = \frac{78}{-26}$$
+
+$$\boxed{x = -3}$$
+
+---
+
+90. $-3(1-6m)=-3-m$
+
+$$-3 + 18m = -3 - m$$
+
+$$18m + m = -3 + 3$$
+
+$$19m = 0$$
+
+$$\boxed{m = 0}$$
+
+---
+
+91. $x-8(x-2)=11-8x$
+
+$$x - 8x + 16 = 11 - 8x$$
+
+$$-7x + 16 = 11 - 8x$$
+
+$$-7x + 8x = 11 - 16$$
+
+$$\boxed{x = -5}$$
+
+---
+
+92. $10-8x=6x+2(6x-8)$
+
+$$10 - 8x = 6x + 12x - 16$$
+
+$$10 - 8x = 18x - 16$$
+
+$$-8x - 18x = -16 - 10$$
+
+$$-26x = -26$$
+
+$$\boxed{x = 1}$$
+
+---
+
+93. $7+3n=-4+4(n+3)$
+
+$$7 + 3n = -4 + 4n + 12$$
+
+$$7 + 3n = 4n + 8$$
+
+$$3n - 4n = 8 - 7$$
+
+$$-n = 1$$
+
+$$\boxed{n = -1}$$
+
+94. $2+5x=2(8x+1)$
+
+$$2 + 5x = 16x + 2$$
+
+$$5x - 16x = 2 - 2$$
+
+$$-11x = 0$$
+
+$$\boxed{x = 0}$$
+
+---
+
+95. $-1-3(1+5k)=-26+7k$
+
+$$-1 - 3 - 15k = -26 + 7k$$
+
+$$-4 - 15k = -26 + 7k$$
+
+$$-15k - 7k = -26 + 4$$
+
+$$-22k = -22$$
+
+$$\boxed{k = 1}$$
+
+96. $-20+x=6x-5(6x-1)$
+
+$$-20 + x = 6x - 30x + 5$$
+
+$$-20 + x = -24x + 5$$
+
+$$x + 24x = 5 + 20$$
+
+$$25x = 25$$
+
+$$\boxed{x = 1}$$
+
+---
+
+97. $\dfrac{493}{32}-\dfrac{13}{8}x=-\dfrac{7}{4}\left(-\dfrac{11}{6}x+\dfrac{29}{8}\right)$
+
+$$\frac{493}{32} - \frac{13}{8}x = \frac{77}{24}x - \frac{203}{32}$$
+
+$$\frac{493}{32} + \frac{203}{32} = \frac{77}{24}x + \frac{13}{8}x$$
+
+$$\frac{696}{32} = \frac{77}{24}x + \frac{39}{24}x$$
+
+$$\frac{87}{4} = \frac{116}{24}x$$
+
+$$\frac{87}{4} = \frac{29}{6}x$$
+
+$$x = \frac{87}{4} \cdot \frac{6}{29} = 3 \cdot \frac{3}{2}$$
+
+$$\boxed{x = \frac{9}{2}}$$
+
+---
+
+98. $\dfrac{5}{3}+x=-\dfrac{7}{6}\left(x-\dfrac{9}{5}\right)$
+
+$$\frac{5}{3} + x = -\frac{7}{6}x + \frac{21}{10}$$
+
+$$x + \frac{7}{6}x = \frac{21}{10} - \frac{5}{3}$$
+
+$$\frac{13}{6}x = \frac{63 - 50}{30}$$
+
+$$\frac{13}{6}x = \frac{13}{30}$$
+
+$$x = \frac{13}{30} \cdot \frac{6}{13}$$
+
+$$\boxed{x = \frac{1}{5}}$$
+
+---
+
+99. $-\dfrac{96}{35}-\dfrac{4}{3}p=\dfrac{24}{7}\left(\dfrac{14}{3}p-\dfrac{4}{5}\right)$
+
+$$-\frac{96}{35} - \frac{4}{3}p = 16p - \frac{96}{35}$$
+
+$$-\frac{4}{3}p - 16p = 0$$
+
+$$-\frac{52}{3}p = 0$$
+
+$$\boxed{p = 0}$$
+
+---
+
+100. $-\dfrac{11}{4}\left(-\dfrac{1}{2}x+1\right)=-\dfrac{5}{4}+\dfrac{3}{8}x$
+
+$$\frac{11}{8}x - \frac{11}{4} = -\frac{5}{4} + \frac{3}{8}x$$
+
+$$\frac{11}{8}x - \frac{3}{8}x = -\frac{5}{4} + \frac{11}{4}$$
+
+$$\frac{8}{8}x = \frac{6}{4}$$
+
+$$\boxed{x = \frac{3}{2}}$$
+
+---
+
+101. $-\dfrac{3}{2}r-\dfrac{317}{48}=-\dfrac{19}{8}\left(r+\dfrac{10}{3}\right)$
+
+$$-\frac{3}{2}r - \frac{317}{48} = -\frac{19}{8}r - \frac{95}{12}$$
+
+$$-\frac{3}{2}r + \frac{19}{8}r = -\frac{95}{12} + \frac{317}{48}$$
+
+$$-\frac{12}{8}r + \frac{19}{8}r = -\frac{380}{48} + \frac{317}{48}$$
+
+$$\frac{7}{8}r = -\frac{63}{48}$$
+
+$$r = -\frac{63}{48} \cdot \frac{8}{7}$$
+
+$$\boxed{r = -\frac{3}{2}}$$
+
+---
+
+102. $-\dfrac{7}{6}\left(r+\dfrac{13}{7}\right)=-\dfrac{103}{30}+2r$
+
+$$-\frac{7}{6}r - \frac{13}{6} = -\frac{103}{30} + 2r$$
+
+$$-\frac{7}{6}r - 2r = -\frac{103}{30} + \frac{13}{6}$$
+
+$$-\frac{19}{6}r = -\frac{103}{30} + \frac{65}{30}$$
+
+$$-\frac{19}{6}r = -\frac{38}{30}$$
+
+$$r = \left(-\frac{38}{30}\right) \cdot \left(-\frac{6}{19}\right)$$
+
+$$\boxed{r = \frac{2}{5}}$$
+
+---
+
+103. $\dfrac{13}{7}\left(p+\dfrac{17}{8}\right)=\dfrac{23}{5}p+\dfrac{241}{280}$
+
+$$\frac{13}{7}p + \frac{221}{56} = \frac{23}{5}p + \frac{241}{280}$$
+
+$$\frac{221}{56} - \frac{241}{280} = \frac{23}{5}p - \frac{13}{7}p$$
+
+$$\frac{1105 - 241}{280} = \frac{161 - 65}{35}p$$
+
+$$\frac{864}{280} = \frac{96}{35}p$$
+
+$$\frac{108}{35} = \frac{96}{35}p$$
+
+$$p = \frac{108}{96}$$
+
+$$\boxed{p = \frac{9}{8}}$$
+
+---
+
+104. $-\dfrac{7}{6}n+\dfrac{7}{75}=-\dfrac{7}{5}\left(\dfrac{1}{2}n-\dfrac{2}{5}\right)$
+
+$$-\frac{7}{6}n + \frac{7}{75} = -\frac{7}{10}n + \frac{14}{25}$$
+
+$$-\frac{7}{6}n + \frac{7}{10}n = \frac{14}{25} - \frac{7}{75}$$
+
+$$-\frac{35}{30}n + \frac{21}{30}n = \frac{42}{75} - \frac{7}{75}$$
+
+$$-\frac{14}{30}n = \frac{35}{75}$$
+
+$$-\frac{7}{15}n = \frac{7}{15}$$
+
+$$\boxed{n = -1}$$
+
+---
+
+## Problemas de Trabajo Juntos y Aplicaciones
+
+105. Norachai y DeShawn
+
+$$\frac{1}{12} + \frac{1}{8} = \frac{1}{t} \implies \frac{2 + 3}{24} = \frac{1}{t} \implies \frac{5}{24} = \frac{1}{t}$$
+
+$$t = \frac{24}{5}$$
+
+$$\boxed{4.8 \text{ horas}}$$
+
+---
+
+106. Shanice y Eduardo
+
+$$\frac{1}{13} + \frac{1}{E} = \frac{1}{4.95} \implies \frac{1}{13} + \frac{1}{E} = \frac{100}{495} = \frac{20}{99}$$
+
+$$\frac{1}{E} = \frac{20}{99} - \frac{1}{13} = \frac{260 - 99}{1287} = \frac{161}{1287}$$
+
+$$E = \frac{1287}{161}$$
+
+$$\boxed{7.99 \text{ horas (aprox. } 8 \text{ horas)}}$$
+
+---
+
+107. Eduardo y Ndiba
+
+$$\frac{1}{15} + \frac{1}{N} = \frac{1}{5.22} \implies \frac{1}{15} + \frac{1}{N} = \frac{100}{522} = \frac{50}{261}$$
+
+$$\frac{1}{N} = \frac{50}{261} - \frac{1}{15} = \frac{250 - 87}{1305} = \frac{163}{1305}$$
+
+$$N = \frac{1305}{163}$$
+
+$$\boxed{8.01 \text{ horas (aprox. } 8 \text{ horas)}}$$
+
+---
+
+108. Mike y Elisa
+
+$$\frac{1}{10} + \frac{1}{15} = \frac{1}{t} \implies \frac{3 + 2}{30} = \frac{1}{t} \implies \frac{5}{30} = \frac{1}{t}$$
+
+$$\boxed{6 \text{ horas}}$$
+
+---
+
+109. Stefan y Eugene
+
+$$\frac{1}{9} + \frac{1}{15} = \frac{1}{t} \implies \frac{5 + 3}{45} = \frac{1}{t} \implies \frac{8}{45} = \frac{1}{t}$$
+
+$$t = \frac{45}{8}$$
+
+$$\boxed{5.625 \text{ horas}}$$
+
+---
+
+110. Jack y Carlos
+
+$$\frac{1}{16} + \frac{1}{C} = \frac{1}{7.74} \implies \frac{1}{16} + \frac{1}{C} = \frac{100}{774} = \frac{50}{387}$$
+
+$$\frac{1}{C} = \frac{50}{387} - \frac{1}{16} = \frac{800 - 387}{6192} = \frac{413}{6192}$$
+
+$$C = \frac{6192}{413}$$
+
+$$\boxed{15 \text{ horas}}$$
+
+---
+
+111. Stephanie y Jessica
+
+$$\frac{1}{8} + \frac{1}{11} = \frac{1}{t} \implies \frac{11 + 8}{88} = \frac{1}{t} \implies \frac{19}{88} = \frac{1}{t}$$
+
+$$t = \frac{88}{19}$$
+
+$$\boxed{4.63 \text{ horas}}$$
+
+---
+
+112. Jaidee y Mike
+
+$$\frac{1}{J} + \frac{1}{10} = \frac{1}{5.65} \implies \frac{1}{J} + \frac{1}{10} = \frac{100}{565} = \frac{20}{113}$$
+
+$$\frac{1}{J} = \frac{20}{113} - \frac{1}{10} = \frac{200 - 113}{1130} = \frac{87}{1130}$$
+
+$$J = \frac{1130}{87}$$
+
+$$\boxed{12.99 \text{ horas (aprox. } 13 \text{ horas)}}$$
+
+---
+
+## Problemas de Distancia, Velocidad y Tiempo
+
+113. Shanice y Daniel
+
+$$d_{\text{Shanice}} + d_{\text{Daniel}} = 298$$
+
+$$(74 \times 3) + 76t = 298$$
+
+$$222 + 76t = 298 \implies 76t = 76$$
+
+$$\boxed{1 \text{ hora}}$$
+
+---
+
+114. Barco pesquero
+
+$$d_{\text{ida}} = d_{\text{regreso}}$$
+
+$$v \times 6 = 12 \times 9$$
+
+$$6v = 108$$
+
+$$\boxed{18 \text{ km/h}}$$
+
+---
+
+115. Shayna y Brenda
+
+$$d_{\text{Shayna}} = d_{\text{Brenda}}$$
+
+$$v \times (2 + 1) = 75 \times 2$$
+
+$$3v = 150$$
+
+$$\boxed{50 \text{ mph}}$$
+
+---
+
+116. Trevon
+
+$$d_{\text{ida}} = d_{\text{regreso}}$$
+
+$$55 \times t = 44 \times (t + 1)$$
+
+$$55t = 44t + 44 \implies 11t = 44$$
+
+$$\boxed{4 \text{ horas}}$$
+
+---
+
+117. Rob y Julia
+
+$$d_{\text{Rob}} + d_{\text{Julia}} = 180$$
+
+$$v_{\text{Rob}} \times 2 + (v_{\text{Rob}} - 30) \times 1 = 180$$
+
+$$2v + v - 30 = 180 \implies 3v = 210$$
+
+$$\boxed{70 \text{ km/h}}$$
+
+---
+
+118. Aviones de Tokio
+
+$$d_{\text{Carga}} + d_{\text{Fuerza Aérea}} = 7480$$
+
+$$11v + (455 \times 11) = 7480$$
+
+$$11v + 5005 = 7480 \implies 11v = 2475$$
+
+$$\boxed{225 \text{ km/h}}$$
+
+---
+
+119. Portaaviones y Submarino
+
+$$d_{\text{Portaaviones}} + d_{\text{Submarino}} = 552$$
+
+$$17t + 29t = 552 \implies 46t = 552$$
+
+$$\boxed{12 \text{ horas}}$$
+
+---
+
+120. Shayna al lago
+
+$$d_{\text{ida}} = d_{\text{regreso}}$$
+
+$$v \times 6 = (v + 15) \times 4$$
+
+$$6v = 4v + 60 \implies 2v = 60$$
+
+$$\boxed{30 \text{ km/h}}$$
+
+---
+
+## Problemas de Mezclas
+
+121. Aleación de níquel
+
+$$0.88x + 1.00(12) = 0.96(x + 12)$$
+
+$$0.88x + 12 = 0.96x + 11.52$$
+
+$$12 - 11.52 = 0.96x - 0.88x$$
+
+$$0.48 = 0.08x$$
+
+$$\boxed{6 \text{ libras}}$$
+
+---
+
+122. Solución de ácido
+
+$$7x + 5(0.34) = 12(0.20)$$
+
+$$7x + 1.70 = 2.40$$
+
+$$7x = 0.70 \implies x = 0.10$$
+
+$$\boxed{10\%}$$
+
+---
+
+123. Contenido de limo
+
+$$2(0.17) + 6x = 8(0.14)$$
+
+$$0.34 + 6x = 1.12$$
+
+$$6x = 0.78 \implies x = 0.13$$
+
+$$\boxed{13\%}$$
+
+---
+
+124. Solución de alcohol
+
+$$4(0) + x(0.09) = (4 + x)(0.05)$$
+
+$$0.09x = 0.20 + 0.05x$$
+
+$$0.04x = 0.20$$
+
+$$\boxed{5 \text{ galones}}$$
+
+---
+
+125. Melaza de caña
+
+$$4x + 8(1) = 12(2)$$
+
+$$4x + 8 = 24 \implies 4x = 16$$
+
+$$\boxed{\$4 \text{ por onza}}$$
+
+---
+
+126. Concentración de ácido
+
+$$3x + 1(0) = 4(0.15)$$
+
+$$3x = 0.60 \implies x = 0.20$$
+
+$$\boxed{20\%}$$
+
+---
+
+127. Frutos secos
+
+$$18(0.30) + 12x = 30(0.38)$$
+
+$$5.4 + 12x = 11.4$$
+
+$$12x = 6.0 \implies x = 0.50$$
+
+$$\boxed{50\%}$$
+
+---
+
+128. Tierra con arena   
+
+$$x(0.41) + 1(0.11) = (x + 1)(0.35)$$
+
+$$0.41x + 0.11 = 0.35x + 0.35$$
+
+$$0.06x = 0.24$$
+
+$$\boxed{4 \text{ pies cúbicos}}$$
