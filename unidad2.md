@@ -757,19 +757,35 @@ $$\boxed{x^2(5x^4 - 2x^2 + 10)}$$
 
 81. $x - y = 0$
 
+![Ejercicio 81](81.jpeg)
+
 82. $x + 4y = -8$
+
+![Ejercicio 82](82.jpeg)
 
 83. $7x + y = 2$
 
+![Ejercicio 83](83.jpeg)
+
 84. $2x - y = -1$
+
+![Ejercicio 84](84.jpeg)
 
 85. $x - y = -1$
 
+![Ejercicio 85](85.jpeg)
+
 86. $x + 5y = 0$
+
+![Ejercicio 86](86.jpeg)
 
 87. $6x - 5y = 25$
 
+![Ejercicio 87](87.jpeg)
+
 88. $7x + y = -3$
+
+![Ejercicio 88](88.jpeg)
 
 ---
 
