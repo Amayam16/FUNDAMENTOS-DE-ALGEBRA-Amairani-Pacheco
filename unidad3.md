@@ -1,5 +1,6 @@
 # Realiza las siguientes operaciones
 ## 1.
+```math
 $$
 \begin{bmatrix}
 -6 \\ 
@@ -28,8 +29,11 @@ $$
 0 \\ 
 \end{bmatrix}
 $$
+```
+---
 
 ## 2.
+``` math
 $$
 \begin{bmatrix}
 -1 & 3 \\
@@ -63,8 +67,12 @@ $$
 0 & 1 \\
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 3.
+``` math
 $$
 \begin{bmatrix}
 -4 & 6 & -3 & 5 \\
@@ -90,8 +98,12 @@ $$
 4 & 15 & 7 & -3 \\
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 4.
+``` math
 $$
 \begin{bmatrix}
 0 & 0 \\
@@ -117,8 +129,12 @@ $$
 -9 & -7 \\
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 5.
+```math
 $$
 -3 
 \cdot 
@@ -138,8 +154,12 @@ $$
 -30 & 12 & 12 & -30 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 6.
+``` math
 $$
 5 
 \cdot 
@@ -159,8 +179,12 @@ $$
 -40 & 40 & 0 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 7.
+```math
 $$
 5 
 \left( 
@@ -187,8 +211,12 @@ $$
 -10 & -50 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 8.
+```math
 $$
 -3 
 \left( 
@@ -210,8 +238,12 @@ $$
 9 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 9.
+```math
 $$
 \begin{bmatrix} 0 & 5 \\ 2 & -4 \end{bmatrix}
 \cdot
@@ -226,8 +258,12 @@ $$
 \begin{bmatrix} -8 & 4 & 8 & -12 \\ 0 & 0 & 7 & -4 \end{bmatrix}
 \begin{bmatrix} 0 & 0 & 35 & -20 \\ -16 & 8 & -12 & -8 \end{bmatrix}
 $$
+```
+
+---
 
 ## 10.
+```math
 $$
 \begin{bmatrix} 
 1 & 2 \\ 
@@ -263,8 +299,12 @@ $$
 24 & 48 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 11.
+```math
 $$
 \begin{bmatrix} 
 5 & -2 & 5 & 6 \\ 
@@ -302,8 +342,12 @@ $$
 16 & -31 \\ 
 \end{bmatrix}
 $$
+```
+
+---
 
 ## 12.
+```math
 $$
 \begin{bmatrix}
 0 & -4 \\
@@ -345,3 +389,4 @@ $$
 49 & -114
 \end{bmatrix}
 $$
+```
