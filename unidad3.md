@@ -2144,55 +2144,43 @@ $$\det(A) = -1032$$
 
 ### 37.
 ```math
-\left[
-\begin{array}{ccc|c}
-6 & 1 & -1 & -22 \\
--1 & 3 & 3 & 22 \\
--6 & 0 & -6 & 12
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_2}
-\left[
-\begin{array}{ccc|c}
--1 & 3 & 3 & 22 \\
-6 & 1 & -1 & -22 \\
--6 & 0 & -6 & 12
-\end{array}
-\right]
-\xrightarrow{R_2 + 6R_1}
-\left[
-\begin{array}{ccc|c}
--1 & 3 & 3 & 22 \\
-0 & 19 & 17 & 110 \\
--6 & 0 & -6 & 12
-\end{array}
-\right]
+\begin{bmatrix}
+6 & 1 & -1 & | & -22 \\
+-1 & 3 & 3 & | & 22 \\
+-6 & 0 & -6 & | & 12
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_2 \implies
+\begin{bmatrix}
+-1 & 3 & 3 & | & 22 \\
+6 & 1 & -1 & | & -22 \\
+-6 & 0 & -6 & | & 12
+\end{bmatrix}
+\quad R_2 + 6R_1 \implies
+\begin{bmatrix}
+-1 & 3 & 3 & | & 22 \\
+0 & 19 & 17 & | & 110 \\
+-6 & 0 & -6 & | & 12
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_3 - 6R_1}
-\left[
-\begin{array}{ccc|c}
--1 & 3 & 3 & 22 \\
-0 & 19 & 17 & 110 \\
-0 & -18 & -24 & -120
-\end{array}
-\right]
-\xrightarrow{-\frac{1}{6}R_3}
-\left[
-\begin{array}{ccc|c}
--1 & 3 & 3 & 22 \\
-0 & 19 & 17 & 110 \\
-0 & 3 & 4 & 20
-\end{array}
-\right]
-\xrightarrow{19R_3 - 3R_2}
-\left[
-\begin{array}{ccc|c}
--1 & 3 & 3 & 22 \\
-0 & 19 & 17 & 110 \\
-0 & 0 & 25 & 50
-\end{array}
-\right]
+R_3 - 6R_1 \implies
+\begin{bmatrix}
+-1 & 3 & 3 & | & 22 \\
+0 & 19 & 17 & | & 110 \\
+0 & -18 & -24 & | & -120
+\end{bmatrix}
+\quad -\frac{1}{6}R_3 \implies
+\begin{bmatrix}
+-1 & 3 & 3 & | & 22 \\
+0 & 19 & 17 & | & 110 \\
+0 & 3 & 4 & | & 20
+\end{bmatrix}
+\quad 19R_3 - 3R_2 \implies
+\begin{bmatrix}
+-1 & 3 & 3 & | & 22 \\
+0 & 19 & 17 & | & 110 \\
+0 & 0 & 25 & | & 50
+\end{bmatrix}
 ```
 $$25z = 50 \rightarrow z = \frac{50}{25} \rightarrow z = 2$$
 
@@ -2204,47 +2192,37 @@ $$-x + 3(4) + 3(2) = 22 \rightarrow -x = 4 \rightarrow x = -4$$
 
 ### 38.
 ```math
-\left[
-\begin{array}{ccc|c}
--4 & -3 & -2 & -8 \\
-1 & -4 & -2 & -3 \\
-4 & -2 & 1 & 6
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_2}
-\left[
-\begin{array}{ccc|c}
-1 & -4 & -2 & -3 \\
--4 & -3 & -2 & -8 \\
-4 & -2 & 1 & 6
-\end{array}
-\right]
-\xrightarrow{R_2 + 4R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -4 & -2 & -3 \\
-0 & -19 & -10 & -20 \\
-4 & -2 & 1 & 6
-\end{array}
-\right]
+\begin{bmatrix}
+-4 & -3 & -2 & | & -8 \\
+1 & -4 & -2 & | & -3 \\
+4 & -2 & 1 & | & 6
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_2 \implies
+\begin{bmatrix}
+1 & -4 & -2 & | & -3 \\
+-4 & -3 & -2 & | & -8 \\
+4 & -2 & 1 & | & 6
+\end{bmatrix}
+\quad R_2 + 4R_1 \implies
+\begin{bmatrix}
+1 & -4 & -2 & | & -3 \\
+0 & -19 & -10 & | & -20 \\
+4 & -2 & 1 & | & 6
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_3 - 4R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -4 & -2 & -3 \\
-0 & -19 & -10 & -20 \\
-0 & 14 & 9 & 18
-\end{array}
-\right]
-\xrightarrow{19R_3 + 14R_2}
-\left[
-\begin{array}{ccc|c}
-1 & -4 & -2 & -3 \\
-0 & -19 & -10 & -20 \\
-0 & 0 & 31 & 62
-\end{array}
-\right]
+R_3 - 4R_1 \implies
+\begin{bmatrix}
+1 & -4 & -2 & | & -3 \\
+0 & -19 & -10 & | & -20 \\
+0 & 14 & 9 & | & 18
+\end{bmatrix}
+\quad 19R_3 + 14R_2 \implies
+\begin{bmatrix}
+1 & -4 & -2 & | & -3 \\
+0 & -19 & -10 & | & -20 \\
+0 & 0 & 31 & | & 62
+\end{bmatrix}
 ```
 $$31c = 62 \rightarrow c = 2$$
 
@@ -2256,47 +2234,37 @@ $$a - 4(0) - 2(2) = -3 \rightarrow a - 4 = -3 \rightarrow a = 1$$
 
 ### 39.
 ```math
-\left[
-\begin{array}{ccc|c}
-1 & 5 & -4 & -14 \\
-2 & -5 & -5 & -7 \\
-3 & 3 & 2 & -2
-\end{array}
-\right]
-\xrightarrow{R_2 - 2R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 5 & -4 & -14 \\
-0 & -15 & 3 & 21 \\
-3 & 3 & 2 & -2
-\end{array}
-\right]
-\xrightarrow{R_3 - 3R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 5 & -4 & -14 \\
-0 & -15 & 3 & 21 \\
-0 & -12 & 14 & 40
-\end{array}
-\right]
+\begin{bmatrix}
+1 & 5 & -4 & | & -14 \\
+2 & -5 & -5 & | & -7 \\
+3 & 3 & 2 & | & -2
+\end{bmatrix}
+\quad R_2 - 2R_1 \implies
+\begin{bmatrix}
+1 & 5 & -4 & | & -14 \\
+0 & -15 & 3 & | & 21 \\
+3 & 3 & 2 & | & -2
+\end{bmatrix}
+\quad R_3 - 3R_1 \implies
+\begin{bmatrix}
+1 & 5 & -4 & | & -14 \\
+0 & -15 & 3 & | & 21 \\
+0 & -12 & 14 & | & 40
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{\frac{1}{2}R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 5 & -4 & -14 \\
-0 & -15 & 3 & 21 \\
-0 & -6 & 7 & 20
-\end{array}
-\right]
-\xrightarrow{15R_3 - 6R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 5 & -4 & -14 \\
-0 & -15 & 3 & 21 \\
-0 & 0 & 87 & 174
-\end{array}
-\right]
+\frac{1}{2}R_3 \implies
+\begin{bmatrix}
+1 & 5 & -4 & | & -14 \\
+0 & -15 & 3 & | & 21 \\
+0 & -6 & 7 & | & 20
+\end{bmatrix}
+\quad 15R_3 - 6R_2 \implies
+\begin{bmatrix}
+1 & 5 & -4 & | & -14 \\
+0 & -15 & 3 & | & 21 \\
+0 & 0 & 87 & | & 174
+\end{bmatrix}
 ```
 $$87c = 174 \rightarrow c = 2$$
 
@@ -2308,29 +2276,23 @@ $$a + 5(-1) - 4(2) = -14 \rightarrow a - 13 = -14 \rightarrow a = -1$$
 
 ### 40.
 ```math
-\left[
-\begin{array}{ccc|c}
-6 & 6 & 5 & 16 \\
--6 & 6 & 1 & 20 \\
-2 & -2 & 3 & 0
-\end{array}
-\right]
-\xrightarrow{3R_3 + R_2}
-\left[
-\begin{array}{ccc|c}
-6 & 6 & 5 & 16 \\
--6 & 6 & 1 & 20 \\
-0 & 0 & 10 & 20
-\end{array}
-\right]
-\xrightarrow{R_2 + R_1}
-\left[
-\begin{array}{ccc|c}
-6 & 6 & 5 & 16 \\
-0 & 12 & 6 & 36 \\
-0 & 0 & 10 & 20
-\end{array}
-\right]
+\begin{bmatrix}
+6 & 6 & 5 & | & 16 \\
+-6 & 6 & 1 & | & 20 \\
+2 & -2 & 3 & | & 0
+\end{bmatrix}
+\quad 3R_3 + R_2 \implies
+\begin{bmatrix}
+6 & 6 & 5 & | & 16 \\
+-6 & 6 & 1 & | & 20 \\
+0 & 0 & 10 & | & 20
+\end{bmatrix}
+\quad R_2 + R_1 \implies
+\begin{bmatrix}
+6 & 6 & 5 & | & 16 \\
+0 & 12 & 6 & | & 36 \\
+0 & 0 & 10 & | & 20
+\end{bmatrix}
 ```
 $$10z = 20 \rightarrow z = 2$$
 
@@ -2342,37 +2304,29 @@ $$6x + 6(2) + 5(2) = 16 \rightarrow 6x = -6 \rightarrow x = -1$$
 
 ### 41.
 ```math
-\left[
-\begin{array}{ccc|c}
--2 & 1 & -4 & 7 \\
-4 & 6 & 1 & 19 \\
--6 & -6 & -5 & -17
-\end{array}
-\right]
-\xrightarrow{R_3 + 3R_2}
-\left[
-\begin{array}{ccc|c}
--2 & 1 & -4 & 7 \\
-4 & 6 & 1 & 19 \\
-0 & -9 & 7 & -38
-\end{array}
-\right]
-\xrightarrow{R_2 + 2R_1}
-\left[
-\begin{array}{ccc|c}
--2 & 1 & -4 & 7 \\
-0 & 8 & -7 & 33 \\
-0 & -9 & 7 & -38
-\end{array}
-\right]
-\xrightarrow{8R_3 + 9R_2}
-\left[
-\begin{array}{ccc|c}
--2 & 1 & -4 & 7 \\
-0 & 8 & -7 & 33 \\
-0 & 0 & -7 & -7
-\end{array}
-\right]
+\begin{bmatrix}
+-2 & 1 & -4 & | & 7 \\
+4 & 6 & 1 & | & 19 \\
+-6 & -6 & -5 & | & -17
+\end{bmatrix}
+\quad R_3 + 3R_2 \implies
+\begin{bmatrix}
+-2 & 1 & -4 & | & 7 \\
+4 & 6 & 1 & | & 19 \\
+0 & -9 & 7 & | & -38
+\end{bmatrix}
+\quad R_2 + 2R_1 \implies
+\begin{bmatrix}
+-2 & 1 & -4 & | & 7 \\
+0 & 8 & -7 & | & 33 \\
+0 & -9 & 7 & | & -38
+\end{bmatrix}
+\quad 8R_3 + 9R_2 \implies
+\begin{bmatrix}
+-2 & 1 & -4 & | & 7 \\
+0 & 8 & -7 & | & 33 \\
+0 & 0 & -7 & | & -7
+\end{bmatrix}
 ```
 $$-7c = -7 \rightarrow c = 1$$
 
@@ -2384,47 +2338,37 @@ $$-2a + 5 - 4 = 7 \rightarrow -2a = 6 \rightarrow a = -3$$
 
 ### 42.
 ```math
-\left[
-\begin{array}{ccc|c}
-5 & -3 & 5 & 22 \\
--4 & -1 & 1 & -16 \\
-2 & 4 & -1 & 11
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_3}
-\left[
-\begin{array}{ccc|c}
-2 & 4 & -1 & 11 \\
--4 & -1 & 1 & -16 \\
-5 & -3 & 5 & 22
-\end{array}
-\right]
-\xrightarrow{R_2 + 2R_1}
-\left[
-\begin{array}{ccc|c}
-2 & 4 & -1 & 11 \\
-0 & 7 & -1 & 6 \\
-5 & -3 & 5 & 22
-\end{array}
-\right]
+\begin{bmatrix}
+5 & -3 & 5 & | & 22 \\
+-4 & -1 & 1 & | & -16 \\
+2 & 4 & -1 & | & 11
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_3 \implies
+\begin{bmatrix}
+2 & 4 & -1 & | & 11 \\
+-4 & -1 & 1 & | & -16 \\
+5 & -3 & 5 & | & 22
+\end{bmatrix}
+\quad R_2 + 2R_1 \implies
+\begin{bmatrix}
+2 & 4 & -1 & | & 11 \\
+0 & 7 & -1 & | & 6 \\
+5 & -3 & 5 & | & 22
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{2R_3 - 5R_1}
-\left[
-\begin{array}{ccc|c}
-2 & 4 & -1 & 11 \\
-0 & 7 & -1 & 6 \\
-0 & -26 & 15 & -11
-\end{array}
-\right]
-\xrightarrow{7R_3 + 26R_2}
-\left[
-\begin{array}{ccc|c}
-2 & 4 & -1 & 11 \\
-0 & 7 & -1 & 6 \\
-0 & 0 & 79 & 79
-\end{array}
-\right]
+2R_3 - 5R_1 \implies
+\begin{bmatrix}
+2 & 4 & -1 & | & 11 \\
+0 & 7 & -1 & | & 6 \\
+0 & -26 & 15 & | & -11
+\end{bmatrix}
+\quad 7R_3 + 26R_2 \implies
+\begin{bmatrix}
+2 & 4 & -1 & | & 11 \\
+0 & 7 & -1 & | & 6 \\
+0 & 0 & 79 & | & 79
+\end{bmatrix}
 ```
 $$79c = 79 \rightarrow c = 1$$
 
@@ -2436,37 +2380,29 @@ $$2a + 4(1) - 1(1) = 11 \rightarrow 2a = 8 \rightarrow a = 4$$
 
 ### 43.
 ```math
-\left[
-\begin{array}{ccc|c}
--3 & 5 & 0 & 26 \\
--6 & 4 & 1 & 26 \\
-3 & 5 & 3 & 8
-\end{array}
-\right]
-\xrightarrow{R_2 - 2R_1}
-\left[
-\begin{array}{ccc|c}
--3 & 5 & 0 & 26 \\
-0 & -6 & 1 & -26 \\
-3 & 5 & 3 & 8
-\end{array}
-\right]
-\xrightarrow{R_3 + R_1}
-\left[
-\begin{array}{ccc|c}
--3 & 5 & 0 & 26 \\
-0 & -6 & 1 & -26 \\
-0 & 10 & 3 & 34
-\end{array}
-\right]
-\xrightarrow{3R_3 + 5R_2}
-\left[
-\begin{array}{ccc|c}
--3 & 5 & 0 & 26 \\
-0 & -6 & 1 & -26 \\
-0 & 0 & 14 & -28
-\end{array}
-\right]
+\begin{bmatrix}
+-3 & 5 & 0 & | & 26 \\
+-6 & 4 & 1 & | & 26 \\
+3 & 5 & 3 & | & 8
+\end{bmatrix}
+\quad R_2 - 2R_1 \implies
+\begin{bmatrix}
+-3 & 5 & 0 & | & 26 \\
+0 & -6 & 1 & | & -26 \\
+3 & 5 & 3 & | & 8
+\end{bmatrix}
+\quad R_3 + R_1 \implies
+\begin{bmatrix}
+-3 & 5 & 0 & | & 26 \\
+0 & -6 & 1 & | & -26 \\
+0 & 10 & 3 & | & 34
+\end{bmatrix}
+\quad 3R_3 + 5R_2 \implies
+\begin{bmatrix}
+-3 & 5 & 0 & | & 26 \\
+0 & -6 & 1 & | & -26 \\
+0 & 0 & 14 & | & -28
+\end{bmatrix}
 ```
 $$14c = -28 \rightarrow c = -2$$
 
@@ -2478,37 +2414,29 @@ $$-3a + 5(4) = 26 \rightarrow -3a = 6 \rightarrow a = -2$$
 
 ### 44.
 ```math
-\left[
-\begin{array}{ccc|c}
-5 & -5 & -1 & -30 \\
-5 & -6 & -1 & -29 \\
--5 & 4 & -4 & 6
-\end{array}
-\right]
-\xrightarrow{R_2 - R_1}
-\left[
-\begin{array}{ccc|c}
-5 & -5 & -1 & -30 \\
-0 & -1 & 0 & 1 \\
--5 & 4 & -4 & 6
-\end{array}
-\right]
-\xrightarrow{R_3 + R_1}
-\left[
-\begin{array}{ccc|c}
-5 & -5 & -1 & -30 \\
-0 & -1 & 0 & 1 \\
-0 & -1 & -5 & -24
-\end{array}
-\right]
-\xrightarrow{R_3 - R_2}
-\left[
-\begin{array}{ccc|c}
-5 & -5 & -1 & -30 \\
-0 & -1 & 0 & 1 \\
-0 & 0 & -5 & -25
-\end{array}
-\right]
+\begin{bmatrix}
+5 & -5 & -1 & | & -30 \\
+5 & -6 & -1 & | & -29 \\
+-5 & 4 & -4 & | & 6
+\end{bmatrix}
+\quad R_2 - R_1 \implies
+\begin{bmatrix}
+5 & -5 & -1 & | & -30 \\
+0 & -1 & 0 & | & 1 \\
+-5 & 4 & -4 & | & 6
+\end{bmatrix}
+\quad R_3 + R_1 \implies
+\begin{bmatrix}
+5 & -5 & -1 & | & -30 \\
+0 & -1 & 0 & | & 1 \\
+0 & -1 & -5 & | & -24
+\end{bmatrix}
+\quad R_3 - R_2 \implies
+\begin{bmatrix}
+5 & -5 & -1 & | & -30 \\
+0 & -1 & 0 & | & 1 \\
+0 & 0 & -5 & | & -25
+\end{bmatrix}
 ```
 $$-5c = -25 \rightarrow c = 5$$
 
@@ -2520,137 +2448,89 @@ $$5a - 5(-1) - 5 = -30 \rightarrow 5a = -30 \rightarrow a = -6$$
 
 ### 45.
 ```math
-\left[
-\begin{array}{ccc|c}
-4 & -5 & -1 & -20 \\
--1 & 2 & 1 & -1 \\
--1 & 1 & 0 & -4
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_3}
-\left[
-\begin{array}{ccc|c}
--1 & 1 & 0 & -4 \\
--1 & 2 & 1 & -1 \\
-4 & -5 & -1 & -20
-\end{array}
-\right]
-\xrightarrow{-R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & 0 & 4 \\
--1 & 2 & 1 & -1 \\
-4 & -5 & -1 & -20
-\end{array}
-\right]
+\begin{bmatrix}
+4 & -5 & -1 & | & -20 \\
+-1 & 2 & 1 & | & -1 \\
+-1 & 1 & 0 & | & -4
+\end{bmatrix}
+\quad 4R_2 + R_1 \implies
+\begin{bmatrix}
+4 & -5 & -1 & | & -20 \\
+0 & 3 & 3 & | & -24 \\
+-1 & 1 & 0 & | & -4
+\end{bmatrix}
+\quad 4R_3 + R_1 \implies
+\begin{bmatrix}
+4 & -5 & -1 & | & -20 \\
+0 & 3 & 3 & | & -24 \\
+0 & -1 & -1 & | & -36
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_2 + R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & 0 & 4 \\
-0 & 1 & 1 & 3 \\
-4 & -5 & -1 & -20
-\end{array}
-\right]
-\xrightarrow{R_3 - 4R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & 0 & 4 \\
-0 & 1 & 1 & 3 \\
-0 & -1 & -1 & -36
-\end{array}
-\right]
-\xrightarrow{R_3 + R_2}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & 0 & 4 \\
-0 & 1 & 1 & 3 \\
-0 & 0 & 0 & -33
-\end{array}
-\right]
+3R_3 + R_2 \implies
+\begin{bmatrix}
+4 & -5 & -1 & | & -20 \\
+0 & 3 & 3 & | & -24 \\
+0 & 0 & 0 & | & -132
+\end{bmatrix}
+\quad 3R_1 + 5R_2 \implies
+\begin{bmatrix}
+12 & 0 & 12 & | & -180 \\
+0 & 3 & 3 & | & -24 \\
+0 & 0 & 0 & | & -132
+\end{bmatrix}
 ```
-$$0 \neq -33 \rightarrow \text{Sin solución}$$
+$$\text{Sin solución (inconsistente)}$$
 
 ---
 
 ### 46.
 ```math
-\left[
-\begin{array}{ccc|c}
--5 & -5 & 5 & 10 \\
--6 & 0 & -2 & -16 \\
--6 & 0 & 1 & -19
-\end{array}
-\right]
-\xrightarrow{-\frac{1}{5}R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
--6 & 0 & -2 & -16 \\
--6 & 0 & 1 & -19
-\end{array}
-\right]
-\xrightarrow{R_2 + 6R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 6 & -8 & -28 \\
--6 & 0 & 1 & -19
-\end{array}
-\right]
-\xrightarrow{R_3 + 6R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 6 & -8 & -28 \\
-0 & 6 & -5 & -31
-\end{array}
-\right]
+\begin{bmatrix}
+-5 & -5 & 5 & | & 10 \\
+-6 & 0 & -2 & | & -16 \\
+-6 & 0 & 1 & | & -19
+\end{bmatrix}
+\quad -\frac{1}{5}R_1 \implies
+\begin{bmatrix}
+1 & 1 & -1 & | & -2 \\
+-6 & 0 & -2 & | & -16 \\
+-6 & 0 & 1 & | & -19
+\end{bmatrix}
+\quad R_2 + 6R_1, \; R_3 + 6R_1 \implies
+\begin{bmatrix}
+1 & 1 & -1 & | & -2 \\
+0 & 6 & -8 & | & -28 \\
+0 & 6 & -5 & | & -31
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_3 - R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 6 & -8 & -28 \\
-0 & 0 & 3 & -3
-\end{array}
-\right]
-\xrightarrow{\frac{1}{3}R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 6 & -8 & -28 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
-\xrightarrow{R_2 + 8R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 6 & 0 & -36 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
-\xrightarrow{\frac{1}{6}R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -1 & -2 \\
-0 & 1 & 0 & -6 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
+\frac{1}{2}R_2 \implies
+\begin{bmatrix}
+1 & 1 & -1 & | & -2 \\
+0 & 3 & -4 & | & -14 \\
+0 & 6 & -5 & | & -31
+\end{bmatrix}
+\quad 3R_1 - R_2, \; R_3 - 2R_2 \implies
+\begin{bmatrix}
+3 & 0 & 1 & | & 8 \\
+0 & 3 & -4 & | & -14 \\
+0 & 0 & 3 & | & -3
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_1 - R_2 + R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 0 & 3 \\
-0 & 1 & 0 & -6 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
+3R_1 - R_3, \; 3R_2 + 4R_3 \implies
+\begin{bmatrix}
+9 & 0 & 0 & | & 27 \\
+0 & 9 & 0 & | & -54 \\
+0 & 0 & 3 & | & -3
+\end{bmatrix}
+\quad \frac{1}{9}R_1, \; \frac{1}{9}R_2, \; \frac{1}{3}R_3 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & 3 \\
+0 & 1 & 0 & | & -6 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
 ```
 $$a = 3, \quad b = -6, \quad c = -1$$
 
@@ -2658,109 +2538,79 @@ $$a = 3, \quad b = -6, \quad c = -1$$
 
 ### 47.
 ```math
-\left[
-\begin{array}{ccc|c}
-0 & -3 & -2 & -26 \\
-1 & 0 & 2 & 1 \\
-2 & -3 & 2 & 3
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 2 & 1 \\
-0 & -3 & -2 & -26 \\
-2 & -3 & 2 & 3
-\end{array}
-\right]
-\xrightarrow{R_3 - 2R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 2 & 1 \\
-0 & -3 & -2 & -26 \\
-0 & -3 & -2 & 1
-\end{array}
-\right]
-\xrightarrow{R_3 - R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 2 & 1 \\
-0 & -3 & -2 & -26 \\
-0 & 0 & 0 & 27
-\end{array}
-\right]
+\begin{bmatrix}
+0 & -3 & -2 & | & -26 \\
+1 & 0 & 2 & | & 1 \\
+2 & -3 & 2 & | & 3
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_2 \implies
+\begin{bmatrix}
+1 & 0 & 2 & | & 1 \\
+0 & -3 & -2 & | & -26 \\
+2 & -3 & 2 & | & 3
+\end{bmatrix}
+\quad R_3 - 2R_1 \implies
+\begin{bmatrix}
+1 & 0 & 2 & | & 1 \\
+0 & -3 & -2 & | & -26 \\
+0 & -3 & -2 & | & 1
+\end{bmatrix}
+\quad R_3 - R_2 \implies
+\begin{bmatrix}
+1 & 0 & 2 & | & 1 \\
+0 & -3 & -2 & | & -26 \\
+0 & 0 & 0 & | & 27
+\end{bmatrix}
 ```
-$$0 \neq 27 \rightarrow \text{Sin solución}$$
+$$\text{Sin solución (inconsistente)}$$
 
 ---
 
 ### 48.
 ```math
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
--2 & 1 & 0 & -5 \\
--3 & -3 & 5 & -1
-\end{array}
-\right]
-\xrightarrow{R_3 + R_1}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
--2 & 1 & 0 & -5 \\
-0 & -3 & 4 & 7
-\end{array}
-\right]
-\xrightarrow{3R_2 + 2R_1}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
-0 & 3 & -2 & 1 \\
-0 & -3 & 4 & 7
-\end{array}
-\right]
-\xrightarrow{R_3 + R_2}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
-0 & 3 & -2 & 1 \\
-0 & 0 & 2 & 8
-\end{array}
-\right]
+\begin{bmatrix}
+3 & 0 & -1 & | & 8 \\
+-2 & 1 & 0 & | & -5 \\
+-3 & -3 & 5 & | & -1
+\end{bmatrix}
+\quad R_3 + R_1 \implies
+\begin{bmatrix}
+3 & 0 & -1 & | & 8 \\
+-2 & 1 & 0 & | & -5 \\
+0 & -3 & 4 & | & 7
+\end{bmatrix}
+\quad 3R_2 + 2R_1 \implies
+\begin{bmatrix}
+3 & 0 & -1 & | & 8 \\
+0 & 3 & -2 & | & 1 \\
+0 & -3 & 4 & | & 7
+\end{bmatrix}
+\quad R_3 + R_2 \implies
+\begin{bmatrix}
+3 & 0 & -1 & | & 8 \\
+0 & 3 & -2 & | & 1 \\
+0 & 0 & 2 & | & 8
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{\frac{1}{2}R_3}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
-0 & 3 & -2 & 1 \\
-0 & 0 & 1 & 4
-\end{array}
-\right]
-\xrightarrow{R_2 + 2R_3}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & -1 & 8 \\
-0 & 3 & 0 & 9 \\
-0 & 0 & 1 & 4
-\end{array}
-\right]
-\xrightarrow{R_1 + R_3}
-\left[
-\begin{array}{ccc|c}
-3 & 0 & 0 & 12 \\
-0 & 3 & 0 & 9 \\
-0 & 0 & 1 & 4
-\end{array}
-\right]
-\xrightarrow{\frac{1}{3}R_1, \frac{1}{3}R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 0 & 4 \\
-0 & 1 & 0 & 3 \\
-0 & 0 & 1 & 4
-\end{array}
-\right]
+R_2 + R_3 \implies
+\begin{bmatrix}
+3 & 0 & -1 & | & 8 \\
+0 & 3 & 0 & | & 9 \\
+0 & 0 & 2 & | & 8
+\end{bmatrix}
+\quad 2R_1 + R_3 \implies
+\begin{bmatrix}
+6 & 0 & 0 & | & 24 \\
+0 & 3 & 0 & | & 9 \\
+0 & 0 & 2 & | & 8
+\end{bmatrix}
+\quad \frac{1}{6}R_1, \; \frac{1}{3}R_2, \; \frac{1}{2}R_3 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & 4 \\
+0 & 1 & 0 & | & 3 \\
+0 & 0 & 1 & | & 4
+\end{bmatrix}
 ```
 $$r = 4, \quad s = 3, \quad t = 4$$
 
@@ -2768,101 +2618,101 @@ $$r = 4, \quad s = 3, \quad t = 4$$
 
 ### 49.
 ```math
-\left[
-\begin{array}{ccc|c}
-0 & -6 & 3 & 15 \\
--3 & -6 & 0 & -6 \\
-1 & -6 & 4 & 22
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_3}
-\left[
-\begin{array}{ccc|c}
-1 & -6 & 4 & 22 \\
--3 & -6 & 0 & -6 \\
-0 & -6 & 3 & 15
-\end{array}
-\right]
-\xrightarrow{R_2 + 3R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -6 & 4 & 22 \\
-0 & -24 & 12 & 60 \\
-0 & -6 & 3 & 15
-\end{array}
-\right]
-\xrightarrow{R_2 - 4R_3}
-\left[
-\begin{array}{ccc|c}
-1 & -6 & 4 & 22 \\
-0 & 0 & 0 & 0 \\
-0 & -6 & 3 & 15
-\end{array}
-\right]
+\begin{bmatrix}
+0 & -6 & 3 & | & 15 \\
+-3 & -6 & 0 & | & -6 \\
+1 & -6 & 4 & | & 22
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_3 \implies
+\begin{bmatrix}
+1 & -6 & 4 & | & 22 \\
+-3 & -6 & 0 & | & -6 \\
+0 & -6 & 3 & | & 15
+\end{bmatrix}
+\quad R_2 + 3R_1 \implies
+\begin{bmatrix}
+1 & -6 & 4 & | & 22 \\
+0 & -24 & 12 & | & 60 \\
+0 & -6 & 3 & | & 15
+\end{bmatrix}
+\quad \frac{1}{4}R_2 \implies
+\begin{bmatrix}
+1 & -6 & 4 & | & 22 \\
+0 & -6 & 3 & | & 15 \\
+0 & -6 & 3 & | & 15
+\end{bmatrix}
 ```
-$$0 = 0 \rightarrow \text{Infinitas soluciones}$$
+```math
+R_3 - R_2 \implies
+\begin{bmatrix}
+1 & -6 & 4 & | & 22 \\
+0 & -6 & 3 & | & 15 \\
+0 & 0 & 0 & | & 0
+\end{bmatrix}
+\quad R_1 - R_2 \implies
+\begin{bmatrix}
+1 & 0 & 1 & | & 7 \\
+0 & -6 & 3 & | & 15 \\
+0 & 0 & 0 & | & 0
+\end{bmatrix}
+\quad -\frac{1}{6}R_2 \implies
+\begin{bmatrix}
+1 & 0 & 1 & | & 7 \\
+0 & 1 & -\frac{1}{2} & | & -\frac{5}{2} \\
+0 & 0 & 0 & | & 0
+\end{bmatrix}
+```
+$$\text{Infinitas soluciones}$$
 
 ---
 
 ### 50.
 ```math
-\left[
-\begin{array}{ccc|c}
-0 & -3 & 0 & 3 \\
-2 & -2 & -6 & -6 \\
-5 & 1 & 4 & -21
-\end{array}
-\right]
-\xrightarrow{R_1 \leftrightarrow R_2}
-\left[
-\begin{array}{ccc|c}
-2 & -2 & -6 & -6 \\
-0 & -3 & 0 & 3 \\
-5 & 1 & 4 & -21
-\end{array}
-\right]
-\xrightarrow{\frac{1}{2}R_1, -\frac{1}{3}R_2}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & -3 & -3 \\
-0 & 1 & 0 & -1 \\
-5 & 1 & 4 & -21
-\end{array}
-\right]
-\xrightarrow{R_3 - 5R_1}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & -3 & -3 \\
-0 & 1 & 0 & -1 \\
-0 & 6 & 19 & -6
-\end{array}
-\right]
+\begin{bmatrix}
+0 & -3 & 0 & | & 3 \\
+2 & -2 & -6 & | & -6 \\
+5 & 1 & 4 & | & -21
+\end{bmatrix}
+\quad R_1 \leftrightarrow R_2 \implies
+\begin{bmatrix}
+2 & -2 & -6 & | & -6 \\
+0 & -3 & 0 & | & 3 \\
+5 & 1 & 4 & | & -21
+\end{bmatrix}
+\quad \frac{1}{2}R_1, \; -\frac{1}{3}R_2 \implies
+\begin{bmatrix}
+1 & -1 & -3 & | & -3 \\
+0 & 1 & 0 & | & -1 \\
+5 & 1 & 4 & | & -21
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{R_3 - 6R_2}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & -3 & -3 \\
-0 & 1 & 0 & -1 \\
-0 & 0 & 19 & 0
-\end{array}
-\right]
-\xrightarrow{\frac{1}{19}R_3}
-\left[
-\begin{array}{ccc|c}
-1 & -1 & -3 & -3 \\
-0 & 1 & 0 & -1 \\
-0 & 0 & 1 & 0
-\end{array}
-\right]
-\xrightarrow{R_1 + R_2 + 3R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 0 & -4 \\
-0 & 1 & 0 & -1 \\
-0 & 0 & 1 & 0
-\end{array}
-\right]
+R_3 - 5R_1 \implies
+\begin{bmatrix}
+1 & -1 & -3 & | & -3 \\
+0 & 1 & 0 & | & -1 \\
+0 & 6 & 19 & | & -6
+\end{bmatrix}
+\quad R_1 + R_2, \; R_3 - 6R_2 \implies
+\begin{bmatrix}
+1 & 0 & -3 & | & -4 \\
+0 & 1 & 0 & | & -1 \\
+0 & 0 & 19 & | & 0
+\end{bmatrix}
+```
+```math
+\frac{1}{19}R_3 \implies
+\begin{bmatrix}
+1 & 0 & -3 & | & -4 \\
+0 & 1 & 0 & | & -1 \\
+0 & 0 & 1 & | & 0
+\end{bmatrix}
+\quad R_1 + 3R_3 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & -4 \\
+0 & 1 & 0 & | & -1 \\
+0 & 0 & 1 & | & 0
+\end{bmatrix}
 ```
 $$r = -4, \quad s = -1, \quad t = 0$$
 
@@ -2870,71 +2720,51 @@ $$r = -4, \quad s = -1, \quad t = 0$$
 
 ### 51.
 ```math
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
--2 & 2 & 1 & -7 \\
-5 & 2 & 4 & 11
-\end{array}
-\right]
-\xrightarrow{R_3 + R_1}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
--2 & 2 & 1 & -7 \\
-0 & 2 & 5 & -5
-\end{array}
-\right]
-\xrightarrow{5R_2 - 2R_1}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
-0 & 10 & 3 & -3 \\
-0 & 2 & 5 & -5
-\end{array}
-\right]
-\xrightarrow{5R_3 - R_2}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
-0 & 10 & 3 & -3 \\
-0 & 0 & 22 & -22
-\end{array}
-\right]
+\begin{bmatrix}
+-5 & 0 & 1 & | & -16 \\
+-2 & 2 & 1 & | & -7 \\
+5 & 2 & 4 & | & 11
+\end{bmatrix}
+\quad R_3 + R_1 \implies
+\begin{bmatrix}
+-5 & 0 & 1 & | & -16 \\
+-2 & 2 & 1 & | & -7 \\
+0 & 2 & 5 & | & -5
+\end{bmatrix}
+\quad 5R_2 - 2R_1 \implies
+\begin{bmatrix}
+-5 & 0 & 1 & | & -16 \\
+0 & 10 & 3 & | & -3 \\
+0 & 2 & 5 & | & -5
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{\frac{1}{22}R_3}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
-0 & 10 & 3 & -3 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
-\xrightarrow{R_2 - 3R_3}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 1 & -16 \\
-0 & 10 & 0 & 0 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
-\xrightarrow{R_1 - R_3}
-\left[
-\begin{array}{ccc|c}
--5 & 0 & 0 & -15 \\
-0 & 10 & 0 & 0 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
-\xrightarrow{-\frac{1}{5}R_1, \frac{1}{10}R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 0 & 3 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & -1
-\end{array}
-\right]
+5R_3 - R_2 \implies
+\begin{bmatrix}
+-5 & 0 & 1 & | & -16 \\
+0 & 10 & 3 & | & -3 \\
+0 & 0 & 22 & | & -22
+\end{bmatrix}
+\quad \frac{1}{22}R_3 \implies
+\begin{bmatrix}
+-5 & 0 & 1 & | & -16 \\
+0 & 10 & 3 & | & -3 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
+```
+```math
+R_1 - R_3, \; R_2 - 3R_3 \implies
+\begin{bmatrix}
+-5 & 0 & 0 & | & -15 \\
+0 & 10 & 0 & | & 0 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
+\quad -\frac{1}{5}R_1, \; \frac{1}{10}R_2 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & 3 \\
+0 & 1 & 0 & | & 0 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
 ```
 $$r = 3, \quad s = 0, \quad t = -1$$
 
@@ -2942,70 +2772,42 @@ $$r = 3, \quad s = 0, \quad t = -1$$
 
 ### 52.
 ```math
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
--1 & -2 & -3 & 7 \\
-6 & -5 & 0 & 28
-\end{array}
-\right]
-\xrightarrow{R_2 + R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & -1 & -8 & 18 \\
-6 & -5 & 0 & 28
-\end{array}
-\right]
-\xrightarrow{R_3 - 6R_1}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & -1 & -8 & 18 \\
-0 & -11 & 30 & -38
-\end{array}
-\right]
-\xrightarrow{R_3 - 11R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & -1 & -8 & 18 \\
-0 & 0 & 118 & -236
-\end{array}
-\right]
+\begin{bmatrix}
+1 & 1 & -5 & | & 11 \\
+-1 & -2 & -3 & | & 7 \\
+6 & -5 & 0 & | & 28
+\end{bmatrix}
+\quad R_2 + R_1, \; R_3 - 6R_1 \implies
+\begin{bmatrix}
+1 & 1 & -5 & | & 11 \\
+0 & -1 & -8 & | & 18 \\
+0 & -11 & 30 & | & -38
+\end{bmatrix}
+\quad R_1 + R_2, \; R_3 - 11R_2 \implies
+\begin{bmatrix}
+1 & 0 & -13 & | & 29 \\
+0 & -1 & -8 & | & 18 \\
+0 & 0 & 118 & | & -236
+\end{bmatrix}
 ```
 ```math
-\xrightarrow{\frac{1}{118}R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & -1 & -8 & 18 \\
-0 & 0 & 1 & -2
-\end{array}
-\right]
-\xrightarrow{R_2 + 8R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & -1 & 0 & 2 \\
-0 & 0 & 1 & -2
-\end{array}
-\right]
-\xrightarrow{-R_2}
-\left[
-\begin{array}{ccc|c}
-1 & 1 & -5 & 11 \\
-0 & 1 & 0 & -2 \\
-0 & 0 & 1 & -2
-\end{array}
-\right]
-\xrightarrow{R_1 - R_2 + 5R_3}
-\left[
-\begin{array}{ccc|c}
-1 & 0 & 0 & 3 \\
-0 & 1 & 0 & -2 \\
-0 & 0 & 1 & -2
-\end{array}
-\right]
+\frac{1}{118}R_3 \implies
+\begin{bmatrix}
+1 & 0 & -13 & | & 29 \\
+0 & -1 & -8 & | & 18 \\
+0 & 0 & 1 & | & -2
+\end{bmatrix}
+\quad R_1 + 13R_3, \; R_2 + 8R_3 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & 3 \\
+0 & -1 & 0 & | & 2 \\
+0 & 0 & 1 & | & -2
+\end{bmatrix}
+\quad -R_2 \implies
+\begin{bmatrix}
+1 & 0 & 0 & | & 3 \\
+0 & 1 & 0 & | & -2 \\
+0 & 0 & 1 & | & -2
+\end{bmatrix}
 ```
 $$x = 3, \quad y = -2, \quad z = -2$$
